@@ -1,0 +1,70 @@
+.home{
+    background-color:rgb(184, 57, 57);
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+/* header */
+.home header{
+    background-color: black;
+}
+.home .nav-bar{
+    margin: 10px;
+    margin-left: 350px;
+    margin-right: auto;
+    display: inline;
+}
+.home .nav-bar ul li{
+    font-size: 21px;
+    display: inline ;
+    border-right: solid 1px white;
+    padding-right: 10px;
+    
+}
+.home .nav-bar ul{
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+.home .nav-bar ul li:last-child{
+    border-right: none;
+}
+/* termino el header */
+/* abro main */
+.home main{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home .pj img{
+    width: 90%;
+    
+}
+.home .pj video{
+   
+    display: none;
+}
+.home .centro{
+    
+    font-size: 6vw;
+}
+.home h2{
+    margin-top: 25px;
+}
+.home h3{
+    margin-top: 25px;
+}
+/* cierro main */
+/* abro footer */
+.home .abajo{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.home .fondo img{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}

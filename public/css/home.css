@@ -11,9 +11,15 @@
 }
 .home .nav-bar{
     margin: 10px;
-    margin-left: 350px;
+    margin-left: auto;
     margin-right: auto;
     display: inline;
+}
+.home .nav-bar ul{
+    margin-left: 32px;
+    margin-bottom: 25px;
+    background: black;
+    font-size: 12vw;
 }
 .home .nav-bar ul li{
     font-size: 21px;
@@ -22,10 +28,7 @@
     padding-right: 10px;
     
 }
-.home .nav-bar ul{
-    margin-left: 50px;
-    margin-bottom: 25px;
-}
+
 
 .home .nav-bar ul li:last-child{
     border-right: none;
@@ -37,9 +40,18 @@
     margin-left: auto;
     margin-right: auto;
 }
+.home .pj p{
+    
+    text-align: center;
+}
+.home .pj div{
+    background: black;
+    color: white;
+    margin-top: 3vw;
+}
 .home .pj img{
     width: 90%;
-    
+    margin-inline: 4vw;
 }
 .home .pj video{
    
@@ -57,14 +69,18 @@
 }
 /* cierro main */
 /* abro footer */
-.home .abajo{
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    width: 100%;
-    margin-top: 15px;
-}
-.home .fondo img{
+
+.home footer img{
     width: 25px;
     height: 25px;
     margin-top: 10px;
+    
+}
+.home footer{
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    margin-top: 13vw;
+    block-size: auto;
 }

@@ -1,0 +1,18 @@
+footer img{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    margin-top: 13vw;
+    block-size: auto;
+    
+}
+footer ul{
+    list-style: none;
+}

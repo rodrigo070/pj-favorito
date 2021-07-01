@@ -1,0 +1,89 @@
+.home{
+    background-color:rgb(21, 15, 210);
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+/* header */
+/* .home header{
+    background-color: black;
+}
+.home .nav-bar{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+.home .nav-bar ul{
+    margin-left: 32px;
+    margin-bottom: 25px;
+    background: black;
+    font-size: 12vw;
+}
+.home .nav-bar ul li{
+    font-size: 21px;
+    display: inline ;
+    border-right: solid 1px white;
+    padding-right: 10px;
+    
+}
+
+
+.home .nav-bar ul li:last-child{
+    border-right: none;
+} */
+/* termino el header */
+/* abro main */
+.home main{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home .pj p{
+    
+    text-align: center;
+}
+.home .pj div{
+    background: black;
+    color: white;
+    margin-top: 3vw;
+    border-radius: 19px 5px;
+}
+.home .pj img{
+    width: 90%;
+    margin-inline: 4vw;
+}
+.home .pj video{
+    background: black;
+    width: 100%;
+    block-size: 51vw;
+    margin-right: 1vw;
+}
+.home .centro{
+    
+    font-size: 6vw;
+}
+.home h2{
+    margin-top: 25px;
+}
+.home h3{
+    margin-top: 25px;
+}
+/* cierro main */
+/* abro footer */
+
+/* .home footer img{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    
+}
+.home footer{
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    margin-top: 13vw;
+    block-size: auto;
+} */

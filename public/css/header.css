@@ -1,0 +1,27 @@
+.home header{
+    background-color: black;
+}
+.home .nav-bar{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+.home .nav-bar ul{
+    margin-left: 32px;
+    margin-bottom: 25px;
+    background: black;
+    font-size: 12vw;
+}
+.home .nav-bar ul li{
+    font-size: 21px;
+    display: inline ;
+    border-right: solid 1px white;
+    padding-right: 10px;
+    
+}
+
+
+.home .nav-bar ul li:last-child{
+    border-right: none;
+}

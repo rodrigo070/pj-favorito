@@ -5,10 +5,12 @@ const path = require('path')
 
 app.use(express.static("public"))
 
-app.get('/', (req, res)=>{res.send("estas en el Home xd")})
+/* rutas */
 
-app.get('/prueba-html',(req,res)=>{
-    res.sendFile(path.join(__dirname,'/index.html'))
-})
+app.get('/', (req, res)=>{res.sendFile(path.join(__dirname,("/public/views/home.html")))}) //home
+
+app.get('/prueba-html',(req,res)=>{res.sendFile(path.join(__dirname,'/public/views/pjfavorito.html'))}) //vista "pjfavorito"
+
+/* puerto */
 app.listen(port,()=>{console.log(`servidor activo en el puerto ${port}\n http://localhost:${port}`)})
 
